@@ -1,0 +1,152 @@
+body{
+    text-align: center;
+}
+
+.logo{
+    width:40px;
+    height:40px;
+}
+
+.home-section{
+    background-image:url("https://res.cloudinary.com/dcizd1l0f/image/upload/v1766673404/Nawabi-mosque_s0wlmx.jpg");
+    background-size: cover;
+    height:100vh;
+}
+.main-card-container{
+   background-color: rgba(255,255,255,0.20);
+   margin: 50px;
+   border-radius: 50px;
+   text-align: center;
+}
+h1{
+    color:aliceblue;
+}
+p{
+    color: azure;
+}
+
+.button{
+    background-color:rgb(247, 7, 7);
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+    font-weight: 800;
+    font-size: 10px;
+    padding: 5px;
+   
+}
+.explore-page-container{
+    color:azure;
+}
+.image{
+    width:170px;
+    height: 120px;
+    border-radius: 25px;
+}
+.title{
+    color: black;
+}
+.heading{
+    color:navy;
+}
+.gallery-title{
+    color:blue;
+}
+.para{
+    color:black;
+}
+.gallery-container{
+  background-color: rgb(246, 234, 246);
+  border-radius:45px;
+}
+.homebtn{
+    border-radius: 50px;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+}
+.videobtn{
+    border-radius: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+.form-control{
+    border: 2px solid #e9ecef;
+    padding:5px;
+    background-color: aliceblue;
+    border-radius: 200px;
+    width:75%;
+    height:25%;
+}
+
+.form-control:focus{
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rbga(100,150,200,20);
+    
+}
+
+.form-title{
+    text-align:center;
+    font-size:32px;
+    font-weight:bold;
+    color:#1f2937;
+    margin-bottom:8px;
+}
+
+.form-subtitle{
+    text-align:center;
+    color:#6b7280;
+    margin-bottom:15px;
+    font-size:14px;
+}
+
+.form-label{
+    font-weight:600;
+    color:#374151;
+    margin-bottom:3px;
+}
+
+.form-control{
+    height:48px;
+    border-radius:10px;
+    border:1px solid #d1d5db;
+    padding-left:12px;
+    margin-bottom:10px;
+}
+
+.form-control:focus{
+    border-color:#2563eb;
+    box-shadow:0 0 5px rgba(37,99,235,0.3);
+}
+
+.signup-btn{
+    width:100%;
+    height:48px;
+    border:none;
+    border-radius:10px;
+    background-color:#2563eb;
+    color:white;
+    font-weight:bold;
+    font-size:16px;
+    transition:0.3s;
+}
+.signup-btn:hover{
+    background-color:#1d4ed8;
+}
+
+.login-text{
+    text-align:center;
+    margin-top:18px;
+    color:#6b7280;
+    font-size:14px;
+}
+
+.login-text a{
+    text-decoration:none;
+    color:#2563eb;
+    font-weight:600;
+}
+
+.login-text a:hover{
+    text-decoration:underline;
+}
